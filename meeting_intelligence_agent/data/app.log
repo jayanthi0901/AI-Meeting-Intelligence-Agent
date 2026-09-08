@@ -1,0 +1,278 @@
+2026-09-05 16:05:31,456 ERROR LLM request failed (transport-level, no content logged): ReadTimeout
+2026-09-05 16:05:32,228 ERROR Intent classification failed: Could not reach local Ollama server at http://localhost:11434. Make sure Ollama is running and the model 'qwen2.5' is pulled.
+2026-09-05 17:54:40,980 ERROR LLM request failed (transport-level, no content logged): ReadTimeout
+2026-09-05 17:54:49,293 ERROR Intent classification failed: Could not reach local Ollama server at http://localhost:11434. Make sure Ollama is running and the model 'qwen2.5' is pulled.
+2026-09-05 17:56:57,667 ERROR LLM request failed (transport-level, no content logged): ReadTimeout
+2026-09-05 17:56:57,764 ERROR CRM agent failed: Could not reach local Ollama server at http://localhost:11434. Make sure Ollama is running and the model 'qwen2.5' is pulled.
+2026-09-05 17:59:00,762 ERROR LLM request failed (transport-level, no content logged): ReadTimeout
+2026-09-05 17:59:00,767 ERROR PMO agent failed: Could not reach local Ollama server at http://localhost:11434. Make sure Ollama is running and the model 'qwen2.5' is pulled.
+2026-09-05 18:02:33,687 ERROR LLM request failed (transport-level, no content logged): ReadTimeout
+2026-09-05 18:02:33,838 ERROR Intent classification failed: Could not reach local Ollama server at http://localhost:11434. Make sure Ollama is running and the model 'qwen2.5' is pulled.
+2026-09-05 18:04:36,784 ERROR LLM request failed (transport-level, no content logged): ReadTimeout
+2026-09-05 18:04:36,861 ERROR CRM agent failed: Could not reach local Ollama server at http://localhost:11434. Make sure Ollama is running and the model 'qwen2.5' is pulled.
+2026-09-05 18:06:39,408 ERROR LLM request failed (transport-level, no content logged): ReadTimeout
+2026-09-05 18:06:39,422 ERROR PMO agent failed: Could not reach local Ollama server at http://localhost:11434. Make sure Ollama is running and the model 'qwen2.5' is pulled.
+2026-09-05 18:27:31,053 ERROR LLM request failed (transport-level, no content logged): ReadTimeout
+2026-09-05 18:27:33,404 ERROR Intent classification failed: Could not reach local Ollama server at http://localhost:11434. Make sure Ollama is running and the model 'qwen2.5' is pulled.
+2026-09-05 18:29:44,812 ERROR LLM request failed (transport-level, no content logged): ReadTimeout
+2026-09-05 18:29:44,874 ERROR CRM agent failed: Could not reach local Ollama server at http://localhost:11434. Make sure Ollama is running and the model 'qwen2.5' is pulled.
+2026-09-05 18:31:48,080 ERROR LLM request failed (transport-level, no content logged): ReadTimeout
+2026-09-05 18:31:48,322 ERROR PMO agent failed: Could not reach local Ollama server at http://localhost:11434. Make sure Ollama is running and the model 'qwen2.5' is pulled.
+2026-09-06 07:08:35,551 INFO CRM record saved for meeting_id=MTG-20260906-070536
+2026-09-06 07:08:35,570 INFO Business object saved for meeting_id=MTG-20260906-070536
+2026-09-06 07:22:30,882 INFO PMO record saved for meeting_id=MTG-20260906-072136
+2026-09-06 07:22:30,899 INFO Business object saved for meeting_id=MTG-20260906-072136
+2026-09-06 07:25:01,291 ERROR Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\jayan\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jayan\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-09-06 08:18:47,004 ERROR Role inference failed: Model output did not contain a JSON object.
+2026-09-06 08:23:08,659 ERROR Intent classification failed: Model output did not contain a JSON object.
+2026-09-06 08:27:31,762 ERROR CRM agent failed: Model output did not contain a JSON object.
+2026-09-07 08:26:41,325 ERROR Role inference failed: Model output did not contain a JSON object.
+2026-09-07 08:35:07,110 ERROR Intent classification failed: Model output did not contain a JSON object.
+2026-09-07 08:38:59,173 ERROR CRM agent failed: Model output did not contain a JSON object.
+2026-09-07 08:48:24,833 ERROR PMO agent failed: Model output did not contain a JSON object.
+2026-09-07 10:23:53,249 ERROR Intent classification failed: Model output did not contain a JSON object.
+2026-09-07 10:27:14,505 ERROR CRM agent failed: Model output did not contain a JSON object.
+2026-09-07 10:35:15,189 ERROR PMO agent failed: Model output did not contain a JSON object.
+2026-09-07 10:37:59,209 ERROR Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\jayan\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jayan\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-09-07 10:51:49,064 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] Raw LLM output preview (first 500 chars): { "meeting_type": "Software Testing/Debugging", "participants": ["Jayanthi Palanisamy (Project Manager)", "Keyur Patel (Developer)", "Angel Palacios (Customer)"], "topic": "Debugging an issue with the modify view functionality in a web application" }
+2026-09-07 11:11:40,123 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] Raw LLM output preview (first 500 chars): {"Issue Tracking and Bug Fixing":"", "Product Demonstration":"", "Code Review":"", "Project Planning":"", "Status Update":"", "Technical Discussion":"", "Bug Testing":"", "User Feedback":"", "Requirement Gathering":"", "Training Session":"", "Onboarding":"", "Stand-up Meeting":"", "Brainstorming Session":"", "Remote Assistance":"", "Customer Support":"", "Sales Meeting":"", "Marketing Planning":"", "Finance Meeting":"", "Human Resources":"", "Other": "Bug Testing"}
+2026-09-07 11:42:13,613 ERROR LLM request timed out (transport-level, no content logged): ReadTimeout
+2026-09-07 11:42:14,694 ERROR Intent classification failed: The local model did not respond within 600s. Ollama is reachable, but 'qwen2.5' is taking longer than that to generate a response (common on CPU-only hardware for larger models). Try a smaller/faster model, or raise LLM_REQUEST_TIMEOUT_SECONDS in config.py.
+2026-09-07 11:50:18,826 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] Raw LLM output preview (first 500 chars): { "classification": "Software Development / Testing", "reason": "The conversation involves a developer and a customer testing a feature, discussing code modifications, and troubleshooting issues in a web application." }
+2026-09-07 11:54:30,224 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] Raw LLM output preview (first 500 chars): { "classification": "Software Development / Testing", "description": "The meeting appears to be a software development and testing session where a developer and a customer are working together to test a feature. The customer is interacting with the software, and the developer is providing guidance and troubleshooting any issues that arise." }
+2026-09-07 12:55:39,375 ERROR LLM request timed out (transport-level, no content logged): ReadTimeout
+2026-09-07 12:55:39,820 ERROR Intent classification failed: The local model did not respond within 600s. Ollama is reachable, but 'qwen2.5' is taking longer than that to generate a response (common on CPU-only hardware for larger models). Try a smaller/faster model, or raise LLM_REQUEST_TIMEOUT_SECONDS in config.py.
+2026-09-07 15:09:07,813 ERROR LLM request timed out (transport-level, no content logged): ReadTimeout
+2026-09-07 15:09:08,001 ERROR Intent classification failed: The local model did not respond within 600s. Ollama is reachable, but 'qwen2.5' is taking longer than that to generate a response (common on CPU-only hardware for larger models). Try a smaller/faster model, or raise LLM_REQUEST_TIMEOUT_SECONDS in config.py.
+2026-09-07 15:10:25,826 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] Raw LLM output preview (first 500 chars): {   "issue": "Modify View Not Working",   "customer": "Angel Palacios",   "developer": "Keyur Patel",   "projectManager": "Jayanthi Palanisamy",   "steps_to_reproduce": [     "Log in to the CRM system",     "Navigate to the 'Elements' section",     "Select the 'Control' sub-section",     "Click on the 'Modify' button",     "Highlight a record in the list",     "Click on the 'Modify' button again"   ],   "expected_result": "The record should be selected for modification and the console should dis
+2026-09-07 15:10:25,884 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] In extract json (first 500 chars): {
+  "issue": "Modify View Not Working",
+  "customer": "Angel Palacios",
+  "developer": "Keyur Patel",
+  "projectManager": "Jayanthi Palanisamy",
+  "steps_to_reproduce": [
+    "Log in to the CRM system",
+    "Navigate to the 'Elements' section",
+    "Select the 'Control' sub-section",
+    "Click on the 'Modify' button",
+    "Highlight a record in the list",
+    "Click on the 'Modify' button again"
+  ],
+  "expected_result": "The record should be selected for modification and the console should display relevant information",
+  "actual_result": "No changes are observed in the console or the record",
+  "additional_notes": [
+    "The developer suggested trying a different record",
+    "When a different record was selected, the console showed some activity",
+    "The developer suggested that the issue might be with the specific record"
+  ]
+}
+2026-09-07 15:17:42,943 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] Raw LLM output preview (first 500 chars): {   "Project Manager": {     "Name": "Jayanthi Palanisamy",     "Role": "Project Manager",     "Actions": [       "Instructed the developer to double-click the record",       "Noted that there is no console output",       "Confirmed that the customer did not see any changes",       "Suggested the customer try clicking on another record"     ],     "Concerns": [       "No console output when expected",       "No visible changes after modifying a record"     ],     "Next Steps": [       "Verify th
+2026-09-07 15:17:42,983 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] In extract json (first 500 chars): {
+  "Project Manager": {
+    "Name": "Jayanthi Palanisamy",
+    "Role": "Project Manager",
+    "Actions": [
+      "Instructed the developer to double-click the record",
+      "Noted that there is no console output",
+      "Confirmed that the customer did not see any changes",
+      "Suggested the customer try clicking on another record"
+    ],
+    "Concerns": [
+      "No console output when expected",
+      "No visible changes after modifying a record"
+    ],
+    "Next Steps": [
+      "Verify the record being modified",
+      "Check the backend for any issues",
+      "Ensure the customer is using the correct method to modify the view"
+    ]
+  },
+  "Developer": {
+    "Name": "Keyur Patel",
+    "Role": "Developer",
+    "Actions": [
+      "Double-clicked the record",
+      "Confirmed the console output",
+      "Suggested trying another record",
+      "Noted that the issue might be with the specific record"
+    ],
+    "Concerns": [
+      "No console output when expected",
+      "Issue might be with a specific record"
+    ],
+    "Next Steps": [
+      "Check the specific record for any issues",
+      "Verify the code for modifying the view"
+    ]
+  },
+  "Customer": {
+    "Name": "Angel Palacios",
+    "Role": "Customer",
+    "Actions": [
+      "Clicked on the record",
+      "Tried modifying the view",
+      "Noted the lack of console output",
+      "Clicked on another record to see if the issue persists"
+    ],
+    "Concerns": [
+      "No console output when expected",
+      "No visible changes after modifying the view"
+    ],
+    "Next Steps": [
+      "Follow the instructions provided by the PM and developer",
+      "Report any issues encountered"
+    ]
+  }
+}
+2026-09-07 21:21:50,304 ERROR LLM request timed out (transport-level, no content logged): ReadTimeout
+2026-09-07 21:21:50,565 ERROR Intent classification failed: The local model did not respond within 600s. Ollama is reachable, but 'qwen2.5' is taking longer than that to generate a response (common on CPU-only hardware for larger models). Try a smaller/faster model, or raise LLM_REQUEST_TIMEOUT_SECONDS in config.py.
+2026-09-07 21:23:27,936 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] Raw LLM output preview (first 500 chars): {   "Task": "Modify View",   "Status": "Partially Successful",   "Issues Encountered": [     {       "Issue": "No visible changes in console",       "Details": "When attempting to modify a view, the console did not display any changes or errors, making it difficult to determine if the action was successful.",       "Resolution Attempted": "Repeating the process with a different record",       "Outcome": "Some changes were visible in the console after selecting a different record, indicating that
+2026-09-07 21:23:27,978 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] In extract json (first 500 chars): {
+  "Task": "Modify View",
+  "Status": "Partially Successful",
+  "Issues Encountered": [
+    {
+      "Issue": "No visible changes in console",
+      "Details": "When attempting to modify a view, the console did not display any changes or errors, making it difficult to determine if the action was successful.",
+      "Resolution Attempted": "Repeating the process with a different record",
+      "Outcome": "Some changes were visible in the console after selecting a different record, indicating that the action was successful for that record."
+    },
+    {
+      "Issue": "Inconsistent behavior across records",
+      "Details": "The modify view function worked for one record but not for another, suggesting that the issue might be record-specific.",
+      "Resolution Attempted": "Selecting a different record",
+      "Outcome": "The function worked for a different record, confirming the inconsistency."
+    }
+  ],
+  "Next Steps": [
+    "Investigate the specific record that caused issues to identify any potential data or configuration problems.",
+    "Ensure that the modify view function is properly configured and tested across all records to maintain consistency."
+  ]
+}
+2026-09-07 21:30:05,610 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] Raw LLM output preview (first 500 chars): {   "Project Manager": {     "Name": "Jayanthi Palanisamy",     "Role": "Project Manager",     "Actions": [       "Instructed the developer to double-click the record",       "Noted that there was no console output",       "Confirmed that the customer did not see any changes",       "Suggested the customer try a different record"     ],     "Decisions": [       "Decided to test with a different record"     ],     "Concerns": [       "Customer did not see any changes in the console or UI",       
+2026-09-07 21:30:05,644 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] In extract json (first 500 chars): {
+  "Project Manager": {
+    "Name": "Jayanthi Palanisamy",
+    "Role": "Project Manager",
+    "Actions": [
+      "Instructed the developer to double-click the record",
+      "Noted that there was no console output",
+      "Confirmed that the customer did not see any changes",
+      "Suggested the customer try a different record"
+    ],
+    "Decisions": [
+      "Decided to test with a different record"
+    ],
+    "Concerns": [
+      "Customer did not see any changes in the console or UI",
+      "Record may have an issue"
+    ]
+  },
+  "Developer": {
+    "Name": "Keyur Patel",
+    "Role": "Developer",
+    "Actions": [
+      "Double-clicked the record",
+      "Confirmed that the console showed expected behavior",
+      "Suggested trying a different record"
+    ],
+    "Decisions": [
+      "Confirmed that the issue might be with the specific record"
+    ],
+    "Concerns": [
+      "Customer did not see the expected changes",
+      "Record might have some underlying issue"
+    ]
+  },
+  "Customer": {
+    "Name": "Angel Palacios",
+    "Role": "Customer",
+    "Actions": [
+      "Clicked on the record",
+      "Noticed no changes in the console",
+      "Clicked on a different record",
+      "Noticed changes in the console"
+    ],
+    "Decisions": [
+      "Decided to try a different record"
+    ],
+    "Concerns": [
+      "No changes were observed in the console or UI",
+      "Expected changes did not occur"
+    ]
+  }
+}
+2026-09-07 22:01:30,193 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] Raw LLM output preview (first 500 chars): { "meeting_type": "Software Development / Testing", "intents": [ { "workflow": "CRM", "confidence": 0.8 }, { "workflow": "CRM", "confidence": 0.8 }, { "workflow": "CRM", "confidence": 0.8 }, { "workflow": "CRM", "confidence": 0.8 }, { "workflow": "CRM", "confidence": 0.8 }, { "workflow": "CRM", "confidence": 0.8 }, { "workflow": "CRM", "confidence": 0.8 }, { "workflow": "CRM", "confidence": 0.8 }, { "workflow": "CRM", "confidence": 0.8 }, { "workflow": "CRM", "confidence": 0.8 } ] }
+2026-09-07 22:01:30,421 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] In app.py (first 500 chars): meeting_type='Software Development / Testing' intents=[IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='CRM', confidence=0.8)]
+2026-09-07 22:02:14,524 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] Raw LLM output preview (first 500 chars): {   "customer": "Angel Palacios",   "contacts": [],   "opportunity": "",   "business_problem": [],   "requirements": [],   "competitors": [],   "budget": "",   "timeline": "",   "decision_maker": "",   "next_actions": [],   "lead_score": 0,   "lead_status": "In Progress" }
+2026-09-07 22:09:30,270 ERROR Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\jayan\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jayan\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-09-07 22:19:53,264 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] Raw LLM output preview (first 500 chars): { "meeting_type": "Software Development / Testing", "intents": [ { "workflow": "CRM", "confidence": 0.8 }, { "workflow": "CRM", "confidence": 0.8 }, { "workflow": "CRM", "confidence": 0.8 }, { "workflow": "CRM", "confidence": 0.8 }, { "workflow": "CRM", "confidence": 0.8 }, { "workflow": "CRM", "confidence": 0.8 }, { "workflow": "CRM", "confidence": 0.8 }, { "workflow": "CRM", "confidence": 0.8 }, { "workflow": "CRM", "confidence": 0.8 }, { "workflow": "CRM", "confidence": 0.8 } ] }
+2026-09-07 22:19:53,724 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] In app.py (first 500 chars): meeting_type='Software Development / Testing' intents=[IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='CRM', confidence=0.8)]
+2026-09-07 22:21:14,959 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] Raw LLM output preview (first 500 chars): {   "customer": "Angel Palacios",   "contacts": [],   "opportunity": "",   "business_problem": [],   "requirements": [     "Implement a feature to modify a record in the CRM system"   ],   "competitors": [],   "budget": "",   "timeline": "",   "decision_maker": "",   "next_actions": [     "Test the modify feature with different records",     "Identify and resolve any issues with specific records"   ],   "lead_score": 0,   "lead_status": "In Progress" }
+2026-09-07 22:49:57,176 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] Raw LLM output preview (first 500 chars): { "meeting_type": "Software Development and Testing", "intents": [ { "workflow": "CRM", "confidence": 0.8 }, { "workflow": "CRM", "confidence": 0.8 }, { "workflow": "CRM", "confidence": 0.8 } ] }
+2026-09-07 22:49:57,539 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] In app.py (first 500 chars): meeting_type='Software Development and Testing' intents=[IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='CRM', confidence=0.8)]
+2026-09-07 22:50:39,494 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] Raw LLM output preview (first 500 chars): {   "customer": "Angel Palacios",   "contacts": [],   "opportunity": "",   "business_problem": [],   "requirements": [     "Implement a feature to modify a record in the CRM system"   ],   "competitors": [],   "budget": "",   "timeline": "",   "decision_maker": "",   "next_actions": [     "Test the modify feature with different records",     "Identify and resolve any issues with specific records"   ],   "lead_score": 0,   "lead_status": "In Progress" }
+2026-09-07 23:03:06,892 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] Raw LLM output preview (first 500 chars): { "meeting_type": "Software Development and Testing", "intents": [ { "workflow": "CRM", "confidence": 0.8 }, { "workflow": "CRM", "confidence": 0.8 }, { "workflow": "CRM", "confidence": 0.8 } ] }
+2026-09-07 23:03:07,037 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] In app.py (first 500 chars): meeting_type='Software Development and Testing' intents=[IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='CRM', confidence=0.8)]
+2026-09-07 23:04:29,070 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] Raw LLM output preview (first 500 chars): {   "customer": "Angel Palacios",   "contacts": [     {       "name": "Angel Palacios",       "role": "Customer",       "company": "Unknown"     }   ],   "opportunity": "",   "business_problem": [     "The customer is trying to modify a view in a CRM application.",     "The customer is experiencing issues with the modify view feature."   ],   "requirements": [     "The customer wants to be able to modify a view in the CRM application.",     "The customer expects the modify view feature to work a
+2026-09-08 10:57:00,269 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] Raw LLM output preview (first 500 chars): { "meeting_type": "Software Testing/Debugging", "intents": [ { "workflow": "CRM", "confidence": 0.8 }, { "workflow": "CRM", "confidence": 0.8 } ] }
+2026-09-08 10:57:00,451 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] Inside intent classify (first 500 chars): {'meeting_type': 'Software Testing/Debugging', 'intents': [{'workflow': 'CRM', 'confidence': 0.8}, {'workflow': 'CRM', 'confidence': 0.8}]}
+2026-09-08 10:57:00,649 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] In app.py (first 500 chars): meeting_type='Software Testing/Debugging' intents=[IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='CRM', confidence=0.8)]
+2026-09-08 10:57:37,496 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] Raw LLM output preview (first 500 chars): {   "customer": "Angel Palacios",   "contacts": [],   "opportunity": "",   "business_problem": [],   "requirements": [],   "competitors": [],   "budget": "",   "timeline": "",   "decision_maker": "",   "next_actions": [],   "lead_score": 0,   "lead_status": "In Progress" }
+2026-09-08 11:11:09,823 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] Raw LLM output preview (first 500 chars): {   "meeting_type": "Technical Support/Testing",   "intents": [     {       "workflow": "CRM",       "confidence": 0.8     },     {       "workflow": "PMO",       "confidence": 0.2     }   ] }
+2026-09-08 11:11:09,900 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] Inside intent classify (first 500 chars): {'meeting_type': 'Technical Support/Testing', 'intents': [{'workflow': 'CRM', 'confidence': 0.8}, {'workflow': 'PMO', 'confidence': 0.2}]}
+2026-09-08 11:11:10,116 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] In app.py (first 500 chars): meeting_type='Technical Support/Testing' intents=[IntentResult(workflow='CRM', confidence=0.8), IntentResult(workflow='PMO', confidence=0.2)]
+2026-09-08 11:12:41,956 INFO [DEBUG_LOG_RAW_LLM_OUTPUT] Raw LLM output preview (first 500 chars): {   "customer": "Theo Schonken",   "contacts": [     {       "name": "Mark",       "role": "Unknown"     },     {       "name": "Damien",       "role": "Unknown"     },     {       "name": "Jayanthi Palanisamy",       "role": "Project Manager"     }   ],   "opportunity": "Airport System",   "business_problem": [     "User access and permissions for the airport system",     "Loading of user group codes"   ],   "requirements": [     "Verify if the system loads user group codes by group code",     
+2026-09-08 11:32:54,236 INFO Intent scoring: workflow=CRM keyword_matches=68 confidence=1.00
+2026-09-08 11:32:54,257 INFO Intent scoring: workflow=PMO keyword_matches=1 confidence=0.30
+2026-09-08 11:40:25,686 INFO Intent scoring: workflow=CRM keyword_matches=1 confidence=0.30
+2026-09-08 11:40:25,713 INFO Intent scoring: workflow=PMO keyword_matches=1 confidence=0.30
+2026-09-08 11:43:19,048 INFO Intent scoring: workflow=CRM keyword_matches=0 confidence=0.00
+2026-09-08 11:43:19,070 INFO Intent scoring: workflow=PMO keyword_matches=0 confidence=0.00
+2026-09-08 11:45:22,993 ERROR Exception in callback _ProactorBasePipeTransport._call_connection_lost()
+handle: <Handle _ProactorBasePipeTransport._call_connection_lost()>
+Traceback (most recent call last):
+  File "C:\Users\jayan\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\jayan\AppData\Local\Python\pythoncore-3.14-64\Lib\asyncio\proactor_events.py", line 165, in _call_connection_lost
+    self._sock.shutdown(socket.SHUT_RDWR)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+2026-09-08 11:45:37,782 INFO Intent scoring: workflow=CRM keyword_matches=0 confidence=0.00
+2026-09-08 11:45:37,827 INFO Intent scoring: workflow=PMO keyword_matches=5 confidence=0.70
+2026-09-08 11:56:42,271 INFO Intent scoring: workflow=CRM keyword_matches=0 confidence=0.00
+2026-09-08 11:56:42,330 INFO Intent scoring: workflow=PMO keyword_matches=5 confidence=0.70
+2026-09-08 12:03:26,485 INFO PMO record saved for meeting_id=MTG-20260908-115926
+2026-09-08 12:03:26,502 INFO Business object saved for meeting_id=MTG-20260908-115926
+2026-09-08 12:06:54,677 INFO Intent scoring: workflow=CRM keyword_matches=0 confidence=0.00
+2026-09-08 12:06:54,725 INFO Intent scoring: workflow=PMO keyword_matches=3 confidence=0.50
+2026-09-08 12:15:57,884 INFO PMO record saved for meeting_id=MTG-20260908-121329
+2026-09-08 12:15:57,897 INFO Business object saved for meeting_id=MTG-20260908-121329

@@ -1,0 +1,6 @@
+{
+  "_comment": "Map each internal team member's name (as they appear in transcripts) to their role. Anyone not listed here is treated as a Customer by default. You can also edit this from the app's 'Team Roster' tab.",
+  "Project Manager": ["Jayanthi Palanisamy", "Sunil M"],
+  "Developer": ["Keyur Patel", "John Torjo"],
+  "Sales Representative": ["Darshin Vyas"]
+}

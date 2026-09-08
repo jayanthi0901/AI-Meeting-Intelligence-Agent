@@ -1,0 +1,34 @@
+{
+  "_comment": "Keyword-based intent scoring. Multi-word phrases count more than single generic words (weighted by word count), since they're a more specific, less ambiguous signal. Add/remove phrases per workflow below (case-insensitive, matched as whole words/phrases). Edit freely to tune for your organization's vocabulary.",
+  "CRM": [
+    "sales opportunity", "customer requirement", "statement of work",
+    "budget approval", "purchase order", "contract signing", "new customer",
+    "customer contract", "renewal contract", "pricing proposal",
+    "sales proposal", "competitor comparison", "close the deal",
+    "decision maker", "proposal review", "quote request",
+    "licensing agreement", "migration cost", "new development project",
+    "customer onboarding", "upsell opportunity",
+    "cross-sell opportunity", "lead qualification", "sales pipeline",
+    "xap file", "customer opportunity",
+    "sow", "proposal", "contract", "pricing", "quote", "competitor",
+    "opportunity", "lead", "prospect", "sales", "renewal", "upsell",
+    "negotiation", "budget", "migration"
+  ],
+  "PMO": [
+    "action item", "acceptance criteria", "user story", "status report",
+    "risk log", "raid log", "change request", "root cause analysis",
+    "steps to reproduce", "software defect", "bug report", "test case",
+    "test result", "regression testing", "software testing",
+    "customer issue", "customer problem", "console output",
+    "expected behavior", "actual behavior", "reproduce the issue",
+    "reproduce the bug", "debug the issue", "sprint planning",
+    "sprint review", "daily standup", "product backlog", "feature request",
+    "code review", "quality assurance", "root cause", "log file",
+    "expected result", "actual result", "test environment",
+    "defect", "bug", "issue", "risk", "decision", "dependency", "blocker",
+    "blocked", "sprint", "backlog", "standup", "debug", "debugging",
+    "console", "error", "exception", "test", "testing", "reproduce",
+    "verify", "verification", "validate", "validation", "fix", "patch",
+    "milestone", "deployment", "release", "regression", "qa"
+  ]
+}
