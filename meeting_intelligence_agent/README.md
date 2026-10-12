@@ -101,7 +101,7 @@ the app's **Team Roster** tab:
 ```json
 {
   "Project Manager": ["Jayanthi Palanisamy"],
-  "Developer": ["Angel Palacios", "Priya Nandan"],
+  "Developer": ["Keyur Patel", "Priya Nandan"],
   "Sales Representative": ["Sarah Mitchell"]
 }
 ```
